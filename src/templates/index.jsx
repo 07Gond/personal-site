@@ -13,6 +13,7 @@ import MainHeader from "../components/MainHeader/MainHeader";
 import MainNav from "../components/MainNav/MainNav";
 import BlogLogo from "../components/BlogLogo/BlogLogo";
 import MenuButton from "../components/MenuButton/MenuButton";
+import AuthorImage from "../components/AuthorImage/AuthorImage";
 import PageTitle from "../components/PageTitle/PageTitle";
 import PageDescription from "../components/PageDescription/PageDescription";
 import PaginatedContent from "../components/PaginatedContent/PaginatedContent";
@@ -57,6 +58,7 @@ class IndexTemplate extends React.Component {
       next
     } = this.props.pageContext;
     const authorsEdges = this.props.data.authors.edges;
+    const getAuthor = () => authorsEdges[0].node;
 
     return (
       <Layout location={this.props.location}>
@@ -81,6 +83,7 @@ class IndexTemplate extends React.Component {
                 </MainNav>
                 <div className="vertical">
                   <div className="main-header-content inner">
+                    <AuthorImage author={getAuthor()} />
                     <PageTitle text={config.siteTitle} />
                     <PageDescription text={config.siteDescription} />
                     <SocialMediaIcons

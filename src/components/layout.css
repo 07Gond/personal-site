@@ -206,6 +206,10 @@ th { padding: 0; }
     content: "\f604";
 }
 
+.icon-linkedin::before {
+    content: "\f605";
+}
+
 .icon-stats::before {
     content: "\f606";
 }

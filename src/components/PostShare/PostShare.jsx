@@ -21,9 +21,8 @@ class PostShare extends React.Component {
 
     const {
       FacebookShareButton,
-      GooglePlusShareButton,
-      // PinterestShareButton,
-      TwitterShareButton
+      TwitterShareButton,
+      LinkedinShareButton
     } = ShareButtons;
 
     return (
@@ -40,24 +39,11 @@ class PostShare extends React.Component {
               <span className="hidden">Facebook</span>
             </a>
           </FacebookShareButton>
-          {/* <PinterestShareButton */}
-          {/* url={url} */}
-          {/* media={formatSiteUrl( */}
-          {/* config.siteUrl, */}
-          {/* config.pathPrefix, */}
-          {/* getCover(post) */}
-          {/* )} */}
-          {/* description={postNode.excerpt} */}
-          {/* > */}
-          {/* <a className="icon-pinterest" style={{ fontSize: "1.4em" }}> */}
-          {/* <span className="hidden">Pinterest</span> */}
-          {/* </a> */}
-          {/* </PinterestShareButton> */}
-          <GooglePlusShareButton url={url}>
-            <a className="icon-google-plus" style={{ fontSize: "1.4em" }}>
-              <span className="hidden">Google+</span>
+          <LinkedinShareButton url={url} title={post.title} description={post.excerpt}>
+            <a className="icon-linkedin" style={{ fontSize: "1.4em" }}>
+              <span className="hidden">Linkedin</span>
             </a>
-          </GooglePlusShareButton>
+          </LinkedinShareButton>
         </div>
       </section>
     );

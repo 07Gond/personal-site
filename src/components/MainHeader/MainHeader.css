@@ -30,6 +30,15 @@
     background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 70%, rgba(0, 0, 0, 0) 100%);
 }
 
+.home-template .main-header .author-image {
+    top: 0;
+    position: relative;
+}
+
+.home-template .main-header .vertical{
+    background: rgba(0,0,0,0.75);
+}
+
 /* Hide when there's no cover image or on page2+ */
 .no-cover.main-header::after,
 .paged .main-header::after {

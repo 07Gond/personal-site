@@ -1,5 +1,5 @@
 {
-  "name": "gatsby-starter-casper",
+  "name": "personal-web",
   "description": "GatsbyJS starter that themed with the Casper theme from Ghost.",
   "version": "1.0.7",
   "author": "Hays Clark <hays.clark@gmail.com>",
@@ -61,7 +61,6 @@
   "keywords": [
     "gatsby",
     "blog",
-    "casper",
     "starter"
   ],
   "license": "MIT",

@@ -5,13 +5,13 @@ module.exports = {
   siteTitle: "Gerson Niño", // Site title.
   siteTitleAlt: "07Gond", // Alternative site title for SEO.
   siteLogo:
-    "https://haysclark.github.io/gatsby-starter-casper/logos/logo-1024.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
+    "https://gersonnino.me/logos/logo.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://gersonnino.me", // Domain of your website without pathPrefix.
   // pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "Fullstack Developer.", // Website description used for RSS feeds/meta description tag.
+    "Fullstack Developer @Globant, Mentor", // Website description used for RSS feeds/meta description tag.
   siteCover:
-    "https://source.unsplash.com/B3l0g6HLxr8/1600x900", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
+    "https://source.unsplash.com/oqStl2L5oxI/1600x900", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
   // siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Gerson Niño", // The author name used in the RSS file
@@ -29,17 +29,17 @@ module.exports = {
   userLinks: [
     {
       label: "GitHub",
-      url: "https://github.com/haysclark/gatsby-starter-casper",
+      url: "https://github.com/07Gond",
       iconClassName: "fa fa-github" // Disabled, see Navigation.jsx
     },
     {
       label: "Twitter",
-      url: "https://twitter.com/gatsbyjs",
+      url: "https://twitter.com/07Gond",
       iconClassName: "fa fa-twitter" // Disabled, see Navigation.jsx
     },
     {
       label: "Email",
-      url: "mailto:gatsbyjs@example.com",
+      url: "mailto:meta.author@gersonnino.me",
       iconClassName: "fa fa-envelope" // Disabled, see Navigation.jsx
     }
   ],

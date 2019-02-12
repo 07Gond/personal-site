@@ -26,6 +26,11 @@
     box-shadow: #fff 0 0 0 5px;
 }
 
+.post-cover img{
+    max-width: 100%;
+}
+
+
 .post-title a {
     text-decoration: none;
 }
