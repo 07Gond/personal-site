@@ -7,12 +7,12 @@ module.exports = {
   siteLogo:
     "https://gersonnino.me/logos/logo.png", // Logo used for SEO and manifest. e.g. "/logos/logo-1024.png",
   siteUrl: "https://gersonnino.me", // Domain of your website without pathPrefix.
-  // pathPrefix: "/gatsby-starter-casper", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
+  pathPrefix: "/", // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-casper/.
   siteDescription:
-    "Fullstack Developer @Globant, Mentor", // Website description used for RSS feeds/meta description tag.
+    "Fullstack Developer", // Website description used for RSS feeds/meta description tag.
   siteCover:
     "https://source.unsplash.com/oqStl2L5oxI/1600x900", // Optional, the cover image used in header for home page. e.g: "/images/blog-cover.jpg",
-  // siteNavigation: true, // If navigation is enabled the Menu button will be visible
+  siteNavigation: true, // If navigation is enabled the Menu button will be visible
   siteRss: "/rss.xml", // Path to the RSS file.
   siteRssAuthor: "Gerson Niño", // The author name used in the RSS file
   // siteFBAppID: "1825356251115265", // optional, sets the FB Application ID for using app insights
