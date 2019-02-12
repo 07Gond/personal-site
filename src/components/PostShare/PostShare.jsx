@@ -39,11 +39,11 @@ class PostShare extends React.Component {
               <span className="hidden">Facebook</span>
             </a>
           </FacebookShareButton>
-          <LinkedinShareButton url={url} title={post.title} description={post.excerpt}>
+          {/* <LinkedinShareButton url={url} title={post.title} description={post.excerpt}>
             <a className="icon-linkedin" style={{ fontSize: "1.4em" }}>
               <span className="hidden">Linkedin</span>
             </a>
-          </LinkedinShareButton>
+          </LinkedinShareButton> */}
         </div>
       </section>
     );
